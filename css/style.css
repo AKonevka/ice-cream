@@ -47,7 +47,7 @@ h6 {
 
 .hero {
     height: 100vh;
-    background-color: rgba(242, 206, 218, 0, 3);
+    background-color: rgba(242, 206, 218, 0.3);
 }
 
 .container {
@@ -216,4 +216,42 @@ h6 {
 
 .menu__item {
     width: calc(25% - 29.25px);
+}
+
+.advertising {
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.advertising__img-wrap {
+    width: 100%;
+    overflow: hidden;
+}
+
+.advertising__img {
+    padding-top: 33px;
+    padding-right:100px ;
+    padding-left: 99px;
+}
+
+.advertising__desc {
+    padding: 24.65px 26px 27px;
+    text-align: center;
+}
+
+.advertising__title {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 9px;
+}
+
+.advertising__text {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.6);
+
 }
