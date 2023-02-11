@@ -195,7 +195,7 @@ h6 {
     content: "";
     display: block;
     position: absolute;
-    background-image: url(../img/content/milk.png);
+    background-image: url(img/content/milk.png);
     background-position: bottom center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -230,7 +230,7 @@ h6 {
 
 .advertising__img {
     padding-top: 33px;
-    padding-right:100px ;
+    padding-right: 100px;
     padding-left: 99px;
 }
 
