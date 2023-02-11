@@ -255,3 +255,74 @@ h6 {
     color: rgba(0, 0, 0, 0.6);
 
 }
+
+.order {
+    background: rgba(242, 206, 218, 0.3);
+    height: 554px;
+}
+
+
+
+.order__container {
+    display: flex;
+    align-items: center;
+}
+
+.order__img-wrap {
+    width: 50%;
+    position: relative;
+}
+
+.order__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+}
+
+.order__img-wrap::after {
+    content: "";
+    position: absolute;
+    width: 283px;
+    height: 27.07px;
+    background: #EDB5C7;
+    opacity: 0.87;
+    filter: blur(16px);
+    bottom: 62px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.order__desc {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.order__action {
+    max-width: 442px;
+}
+
+.action__title {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    margin-bottom: 16.04px;
+    max-width: 349px;
+}
+
+.action__text {
+    height: 58.16px;
+    left: 252px;
+    top: 1517.9px;
+    color: rgba(21, 1, 1, 0.6);
+    margin-bottom: 35px;
+}
+
+.btn {}
+
+.action__btn {
+    font-family: 'Roboto', sans-serif;
+}
