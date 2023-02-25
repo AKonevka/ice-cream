@@ -99,6 +99,7 @@ h6 {
 }
 
 .btn {
+    font-family: 'Roboto', sans-serif;
     padding: 15px 36px;
     background: #D23166;
     border-radius: 5px;
@@ -325,4 +326,78 @@ h6 {
 
 .action__btn {
     font-family: 'Roboto', sans-serif;
+}
+
+.product__title {
+    width: 238px;
+    height: 61px;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.product__nav-list {
+    display: flex;
+    margin-top: 64px;
+}
+
+.product__nav-item {
+    margin-right: 40px;
+}
+
+.product__nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.product__list {
+    margin-top: 50px;
+}
+
+.product__container {
+    display: flex;
+}
+
+.offer__title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.offer__text {
+    margin-top: 11px;
+    margin-bottom: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.action__price-new {
+    color: #000000;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.action__price-old {
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+}
+
+.btn_size_small {
+    margin-top: 10px;
+}
+
+.product__item:nth-child(even) .product__container {
+    flex-direction: row-reverse;
 }
